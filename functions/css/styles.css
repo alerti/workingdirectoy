@@ -1,0 +1,92 @@
+.form-control {
+  -webkit-box-shadow: 0px 0.5px 0px 0.5px gray;
+          box-shadow: 0px 0.5px 0px 0.5px gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  color: navy;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: 0px 0.5px 0px 0.5px lightblue;
+          box-shadow: 0px 0.5px 0px 0.5px lightblue;
+}
+
+.save {
+  background: lightgreen;
+  width: 20rem;
+  color: black;
+}
+
+.center-div {
+  border: none;
+  -webkit-box-shadow: 1px 1px 1px 0px gray;
+          box-shadow: 1px 1px 1px 0px gray;
+  z-index: 2;
+  border-radius: 2px;
+  padding: 2rem;
+}
+
+table {
+  padding: 10px;
+  border: gray;
+  width: 100%;
+}
+
+.sales_table {
+  background: gray;
+}
+
+.sales_div {
+  background: snow;
+  overflow-x: auto;
+}
+
+.sales_div table {
+  background: whitesmoke;
+  border: 0.5px solid gray;
+}
+
+.sales_div table thead {
+  background: lightgray;
+  padding: 1rem;
+}
+
+.sales_div table tr {
+  padding: 1rem;
+}
+
+.display_user {
+  padding: 2rem;
+  background: gray;
+}
+
+.display_user span {
+  padding: 1rem;
+}
+
+tr:nth-child(even) {
+  background-color: snow;
+}
+
+.dashboard-div {
+  margin-top: 10vh;
+}
+
+.amount {
+  color: black;
+  background: snow;
+  -webkit-box-shadow: 0px 0.5px 0px 0.5px lightblue;
+          box-shadow: 0px 0.5px 0px 0.5px lightblue;
+}
+
+.search {
+  color: gray;
+  font-size: 1rem;
+  float: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */

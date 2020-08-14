@@ -1,0 +1,98 @@
+$box-shadow: 0px 0.5px 0px 0.5px gray ;
+$hover-shadow:0px 0.5px 0px 0.5px lightblue;
+$button-primary-color:lightblue;
+$button-success-color:lightgreen;
+$div-shadow: 1px 1px 1px 0px gray;
+
+
+
+
+
+.form-control{
+  box-shadow:$box-shadow;
+  box-sizing: border-box;
+  border:none;
+  color:navy;
+  
+}
+.form-control:focus{
+  box-shadow:$hover-shadow;
+}
+.save{
+  background: $button-success-color;
+  width: 20rem;
+  color:black;
+}
+.center-div{
+  border:none;
+  box-shadow: $div-shadow;
+  z-index: 2;
+  border-radius:2px;
+  padding:2rem;
+}
+table{
+  padding:10px;
+  border:gray;
+  width:100%;
+}
+
+.sales_table{
+  background:gray;
+}
+.sales_div{
+  background:snow;
+  overflow-x:auto;
+  table{
+    background:whitesmoke;
+    border:0.5px solid gray;
+    thead{
+      background:lightgray;
+      padding:1rem;
+    }
+    tr{
+      padding:1rem;
+    }
+
+  }
+  
+}
+.display_user{
+  padding:2rem;
+  background:gray;
+}
+.display_user span{
+  padding:1rem;
+}
+tr:nth-child(even) {
+  background-color: snow;
+}
+.dashboard-div{
+  margin-top:10vh;
+}
+.amount{
+  color:black;
+  background:snow;
+  box-shadow: $hover-shadow;
+  
+}
+.search{
+  color:gray;
+  font-size:1rem;
+  float:right;
+  align-items:center;
+  text-align:center;
+}
+
+@media (min-width: 576px) {
+  
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
